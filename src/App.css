@@ -1,0 +1,75 @@
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding: .5em;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card__location-exact, .top__heading {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card__image {
+  max-width: 100%;
+  border-radius: 1em;
+  height: 400px;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .2em;
+}
+
+a {
+  color: beige;
+  margin-left: 1em;
+}
+
+.card__top-location-details {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 0;
+}
+
+.card__location-date {
+  margin-bottom: .25em; 
+  font-weight: 700;
+}
+.card__location-title {
+  color: rgb(171, 171, 171);
+
+}
+
+.top__heading {
+  text-align: center;
+}
+
+@media  screen and (min-width: 700px) {
+  .d-flex {
+    display: flex;
+  }
+}
